@@ -1,10 +1,15 @@
-function recursion(i) {
-    console.log (i);
-    recursion(i +=1);
-}
+const shopping = [
+    'Apples',
+    'Bananas',
+    'Pears',
+    'Oranges',
+];
 
 async function main() {
-    recursion(0);
+    for(const  element of shopping) {
+    console.log(element);
+    console.log('Here is your shopping list');
+    console.log('==========');
+    }
 }
-
 main();
