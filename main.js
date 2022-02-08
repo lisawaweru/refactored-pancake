@@ -6,10 +6,10 @@ const shopping = [
 ];
 
 async function main() {
-    for(const  element of shopping) {
     console.log(element);
-    console.log('Here is your shopping list');
-    console.log('==========');
+    for(const  element of shopping) {
+        console.log('Here is your shopping list');
+        console.log('==========');
     }
 }
 main();
