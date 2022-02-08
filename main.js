@@ -1,8 +1,6 @@
 function recursion(i) {
-
-
-console.log (i);
-recursion(i +=1);
+    console.log (i);
+    recursion(i +=1);
 }
 
 async function main() {
